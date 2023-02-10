@@ -245,6 +245,12 @@ About
   margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 568px) {
+  .about-center {
+    text-align: center;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .about-center {
     display: grid;
